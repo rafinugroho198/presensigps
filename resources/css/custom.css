@@ -1,0 +1,10 @@
+/* Menyembunyikan card yang berisi logo "filament vX.X.X" dan tautan Documentation/GitHub */
+.fi-page-header .flex-shrink-0 > div:last-child {
+    display: none !important;
+}
+
+/* Menyembunyikan link yang mungkin muncul di sidebar atau footer jika ada */
+a[href*="filamentphp/filament"],
+a[href*="github.com/filamentphp"] {
+    display: none !important;
+}
